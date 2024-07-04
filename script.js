@@ -62,7 +62,7 @@ function checkDraw() {
 
         if (isDraw) {
             isGameOver = true;
-            document.querySelector("#results").innerHTML = turn + " Win";
+            document.querySelector("#results").innerHTML = "Draw";
             document.querySelector("#play-again").style.display = "inline";
             for (let k = 0; k < 3; k++) {
                 boxes[winConditions[i][k]].style.backgroundColor = "#08D9D6";
